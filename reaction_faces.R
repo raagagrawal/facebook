@@ -31,6 +31,8 @@ reactions$emoji <- gsub("\U0001f44e","Thumbs Down",reactions$emoji)
 reactions$emoji <- gsub("\U0001f606","Smiling Face w/ Closed Eyes",reactions$emoji)
 reactions$emoji <- gsub("\U0001f60d","Smiling Face w/ Heart Eyes",reactions$emoji)
 reactions$emoji <- gsub("\U0001f622","Crying Face",reactions$emoji)
+reactions$emoji <- gsub("\U0001f620","Angry Face",reactions$emoji)
+reactions$emoji <- gsub("\U0001f62e","Wow Face",reactions$emoji)
 
 # Basic barplot
 g <- ggplot(reactions, aes(emoji))
